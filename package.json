@@ -1,0 +1,24 @@
+{
+  "name": "browserify-debug",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        "browserify-shim"
+      ]
+    ]
+  },
+  "dependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.0",
+    "browserify-shim": "^3.8.10"
+  }
+}
